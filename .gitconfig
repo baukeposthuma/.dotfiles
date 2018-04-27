@@ -4,7 +4,7 @@
 	whitespace = fix
 
 [core]
-    editor = code --wait
+    editor = nano
 
 	# Use custom `.gitignore` and `.gitattributes`
 	excludesfile = ~/.gitignore
