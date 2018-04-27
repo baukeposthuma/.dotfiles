@@ -32,7 +32,7 @@ source $(brew --prefix)/etc/profile.d/z.sh
 
 # load liquid prompt
 if [ -f /usr/local/share/liquidprompt ]; then
-    . /usr/local/share/liquidprompt
+	[[ $- = *i* ]] && source /usr/local/share/liquidprompt
 fi
 
 # Enable tab completion for `g` by marking it as an alias for `git`
