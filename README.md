@@ -1,5 +1,5 @@
 ## Mac defaults
-Look into `./macos.sh` and run each line one by one.
+Look into `./macos.sh` and run each line one by one. You might want to follow the below commands first.
 
 ## Brew
 
@@ -44,26 +44,6 @@ brew cask install slack
 brew cask install 1password
 brew cask install spotify
 brew cask install transmission
-```
-
-For google chrome run the following commands.
-
-```sh
-# Disable the all too sensitive backswipe on trackpads
-defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool false
-defaults write com.google.Chrome.canary AppleEnableSwipeNavigateWithScrolls -bool false
-
-# Disable the all too sensitive backswipe on Magic Mouse
-defaults write com.google.Chrome AppleEnableMouseSwipeNavigateWithScrolls -bool false
-defaults write com.google.Chrome.canary AppleEnableMouseSwipeNavigateWithScrolls -bool false
-
-# Use the system-native print preview dialog
-defaults write com.google.Chrome DisablePrintPreview -bool true
-defaults write com.google.Chrome.canary DisablePrintPreview -bool true
-
-# Expand the print dialog by default
-defaults write com.google.Chrome PMPrintingExpandedStateForPrint2 -bool true
-defaults write com.google.Chrome.canary PMPrintingExpandedStateForPrint2 -bool true
 ```
 
 ```sh
