@@ -98,8 +98,12 @@ Enable: Make Iterm default terminal
 Disabled dimmed inactive panes:  
 Appearance > Dimmming: Disable "Dim inactive panes"
 
+Profiles > Window:  
+Settings for new windows: set `columns` to `105` for a more pleasant window.
+
+Profiles > Keys:  
 Add word skip (`←⌥`, `→⌥`) and end of line skip (`←⌘`, `→⌘`)  
-Profiles > Keys: 
+
 1. Set left `←⌥` to `Esc+`
 2. change `←⌥` to `send escape sequence` `f`
 3. change `→⌥` to `send escape sequence` `f` 
