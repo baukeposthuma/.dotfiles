@@ -1,5 +1,5 @@
 ## Mac defaults
-Run `./macos.sh` or run each line one by one.
+Look into `./macos.sh` and run each line one by one.
 
 ## Brew
 
@@ -14,6 +14,7 @@ brew tap caskroom/cask
 ```sh
 brew install bash
 brew install bash-completion2
+brew install liquidprompt
 
 # Switch to bash 
 echo '/usr/local/bin/bash' | sudo tee -a /etc/shells;
@@ -126,7 +127,10 @@ Install the latest stable or LTS of node
 
 ```sh
 nvm install stable
-nvm install --lts
+nvm install lts/*
+
+# set lts as the default
+nvm alias default lts/*
 ```
 
 check installed versions of node
