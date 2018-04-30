@@ -30,6 +30,8 @@ brew install yarn
 brew install imagemagick --with-webp
 brew install libvpx
 brew install ffmpeg
+
+brew install watchman # for react native
 ```
 
 
@@ -42,6 +44,7 @@ Install xcode via the app store.
 brew cask install google-chrome
 brew cask install slack
 brew cask install 1password
+brew cask install keybase
 brew cask install spotify
 brew cask install transmission
 ```
