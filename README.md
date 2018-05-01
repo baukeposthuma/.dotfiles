@@ -61,6 +61,7 @@ brew cask install imageoptim # minify images
 brew cask install google-chrome-canary
 brew cask install docker
 brew cask install android-studio
+brew cask info caskroom/versions/java8 # for react-native
 brew cask install insomnia
 brew cask install postman 
 brew cask install postico # postgresql gui
