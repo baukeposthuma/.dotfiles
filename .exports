@@ -32,3 +32,6 @@ export LESS_TERMCAP_md="${yellow}";
 
 # Don’t clear the screen after quitting a manual page.
 export MANPAGER='less -X';
+
+# Android studio variables
+export ANDROID_HOME=$HOME/Library/Android/sdk
