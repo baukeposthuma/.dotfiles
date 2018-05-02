@@ -23,6 +23,7 @@ chsh -s /usr/local/bin/bash;
 brew install z
 
 brew install git
+brew install git-flow
 brew install hub
 
 brew install yarn
