@@ -70,6 +70,8 @@ brew cask install sequel-pro # mysql gui
 brew cask install robo-3t # mongodb gui
 brew cask install sourcetree # git gui
 brew cask install zeplin # design -> development transfer
+brew cask install virtualbox
+brew cask install vagrant
 ```
 
 ## Iterm
