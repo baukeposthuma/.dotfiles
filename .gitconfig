@@ -71,6 +71,11 @@
 	# Automatically correct and execute mistyped commands
 	autocorrect = 1
 
+[commit]
+
+	# https://help.github.com/articles/signing-commits-using-gpg/
+	gpgsign = true
+
 [merge]
 
 	# Include summaries of merged commits in newly created merge commit messages
@@ -101,3 +106,13 @@
 [url "git://gist.github.com/"]
 
 	insteadOf = "gist:"
+[user]
+	name = Rick Lancee
+	email = rick@lifely.nl
+	signingkey = 01F8524E96FB8BAB068A05D6276D2F4EA56AE261
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path =
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
