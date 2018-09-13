@@ -1,6 +1,3 @@
-## Mac defaults
-Look into `./macos.sh` and run each line one by one. You might want to follow the below commands first.
-
 ## Brew
 
 install brew and brew cask
@@ -21,24 +18,12 @@ echo '/usr/local/bin/bash' | sudo tee -a /etc/shells;
 chsh -s /usr/local/bin/bash;
 
 brew install z
-
 brew install git
-brew install git-flow
-brew install hub
-
 brew install yarn
-
-brew install imagemagick --with-webp
-brew install libvpx
-brew install ffmpeg
-
-brew install watchman # for react native
 ```
 
 
 ## Applications
-
-Install xcode via the app store.
 
 ```sh
 # General
@@ -47,31 +32,18 @@ brew cask install slack
 brew cask install 1password
 brew cask install keybase
 brew cask install spotify
-brew cask install transmission
-```
-
-```sh
-# utils
-brew cask install gyazo # quick capture and upload gifs and screenshots
-brew cask install licecap # create longer screencapture gifs
-brew cask install imageoptim # minify images
 ```
 
 ```sh
 # Development
-brew cask install google-chrome-canary
 brew cask install docker
-brew cask install android-studio
-brew cask info caskroom/versions/java8 # for react-native
 brew cask install insomnia
 brew cask install postman 
 brew cask install postico # postgresql gui
 brew cask install sequel-pro # mysql gui
 brew cask install robo-3t # mongodb gui
 brew cask install sourcetree # git gui
-brew cask install zeplin # design -> development transfer
-brew cask install virtualbox
-brew cask install vagrant
+brew cask install zeplin
 ```
 
 ## Iterm
@@ -104,26 +76,9 @@ defaults write com.googlecode.iterm2 PromptOnQuit -bool false
 ```
 
 # Node
-```sh
-brew install nvm
-```
+Follow installation instructions on: https://nodejs.org/
 
 Add the following to your .bash_profile
-
-```sh
-export NVM_DIR="$HOME/.nvm"
-. "/usr/local/opt/nvm/nvm.sh"
-```
-
-Install the latest stable or LTS of node
-
-```sh
-nvm install stable
-nvm install lts/*
-
-# set lts as the default
-nvm alias default lts/*
-```
 
 check installed versions of node
 
