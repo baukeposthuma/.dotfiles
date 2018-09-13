@@ -26,6 +26,12 @@ brew install yarn
 ## Applications
 
 ```sh
+# App Store
+Nord VPN
+Spark Mail
+```
+
+```sh
 # General
 brew cask install google-chrome
 brew cask install slack
@@ -34,6 +40,10 @@ brew cask install keybase
 brew cask install spotify
 brew cask install dropbox
 brew cask install gitkraken
+brew cask install boom-3d
+brew cask install telegram
+brew cask install alfred
+brew cask install notion
 ```
 
 ```sh
