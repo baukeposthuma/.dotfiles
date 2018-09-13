@@ -29,6 +29,7 @@ brew install yarn
 # App Store
 Nord VPN
 Spark Mail
+Magnet
 ```
 
 ```sh
