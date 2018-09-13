@@ -32,6 +32,8 @@ brew cask install slack
 brew cask install 1password
 brew cask install keybase
 brew cask install spotify
+brew cask install dropbox
+brew cask install gitkraken
 ```
 
 ```sh
@@ -78,13 +80,7 @@ defaults write com.googlecode.iterm2 PromptOnQuit -bool false
 # Node
 Follow installation instructions on: https://nodejs.org/
 
-Add the following to your .bash_profile
-
-check installed versions of node
-
-```sh
-nvm ls
-```
+Install nvm: https://github.com/creationix/nvm/
 
 # vscode
 ```sh
