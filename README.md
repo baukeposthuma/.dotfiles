@@ -68,10 +68,16 @@ Open Iterm > Preferences
 Enable: Make Iterm default terminal
 
 Disabled dimmed inactive panes:  
-Appearance > Dimmming: Disable "Dim inactive panes"
+Colors > Cursor: #d22dde
+
+Text > Blinking cursor: Enabled
 
 Profiles > Window:  
-Settings for new windows: set `columns` to `105` for a more pleasant window.
+Settings for new windows: set `columns` to `120` and `rows` to `26` for a more pleasant window.
+
+Transparency: 15%
+Blur: 75%
+
 
 Profiles > Keys:  
 Add word skip (`←⌥`, `→⌥`) and end of line skip (`←⌘`, `→⌘`)  
