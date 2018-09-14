@@ -112,3 +112,10 @@ brew cask install visual-studio-code
 ```
 ssh-keygen -N "" -t rsa -b 4096 -C "EMAIL_ADDRESS" -f $HOME/.ssh/id_rsa
 ```
+
+## Mac settings
+
+Set screenshot location
+```
+defaults write com.apple.screencapture location Downloads
+```
