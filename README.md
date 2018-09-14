@@ -117,5 +117,5 @@ ssh-keygen -N "" -t rsa -b 4096 -C "EMAIL_ADDRESS" -f $HOME/.ssh/id_rsa
 
 Set screenshot location
 ```
-defaults write com.apple.screencapture location Downloads
+defaults write com.apple.screencapture location ~/Downloads
 ```
