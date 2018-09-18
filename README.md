@@ -1,3 +1,10 @@
+## XCode
+
+install XCode
+```sh
+xcode-select --install
+```
+
 ## Brew
 
 install brew and brew cask
