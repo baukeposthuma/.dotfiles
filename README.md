@@ -52,6 +52,7 @@ brew cask install boom-3d
 brew cask install telegram
 brew cask install alfred
 brew cask install notion
+brew cask install transmit
 ```
 
 ```sh
