@@ -37,6 +37,7 @@ brew install yarn
 Nord VPN
 Spark Mail
 Magnet
+The Unarchiver
 ```
 
 ```sh
