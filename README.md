@@ -49,23 +49,24 @@ brew cask install 1password
 brew cask install keybase
 brew cask install spotify
 brew cask install dropbox
-brew cask install gitkraken
 brew cask install boom-3d
 brew cask install telegram
 brew cask install alfred
 brew cask install notion
-brew cask install transmit
 ```
 
 ```sh
 # Development
+brew cask install transmit
 brew cask install docker
 brew cask install insomnia
 brew cask install postman 
 brew cask install postico # postgresql gui
+brew cask install tableplus # postgresql gui & redis gui
 brew cask install sequel-pro # mysql gui
 brew cask install robo-3t # mongodb gui
 brew cask install sourcetree # git gui
+brew cask install gitkraken
 brew cask install zeplin
 ```
 
