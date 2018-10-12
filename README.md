@@ -1,3 +1,23 @@
+## Dark Menu and Dock in MacOS Mojave
+
+1. Head to **System Preferences > General** and select **Light** for *Appearance*.
+2. Launch **Terminal**
+    ```
+    defaults write -g NSRequiresAquaSystemAppearance -bool Yes
+    ```
+3. Log out of your user account and then log back in. Now, return to **System Preferences > General** and select **Dark** for *Appearance*.
+
+### Revert to Full Mojave Dark Mode
+
+If you’ve used the Terminal command above to achieve dark mode for only the menu bar and Dock and later want to use the full Mojave dark mode again, you can revert the change with another Terminal command.
+
+Just repeat the steps above, but this time use the following command instead:
+
+```
+defaults delete -g NSRequiresAquaSystemAppearance
+```
+After entering the command, this time reboot your Mac.
+
 ## XCode
 
 install XCode
