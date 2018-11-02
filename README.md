@@ -95,6 +95,9 @@ brew cask install zeplin
 brew cask install iterm2
 ```
 
+Enable clear line on `⌘←Delete`
+set key: Send Hex Code `0x15`
+
 Open Iterm > Preferences
 
 Enable: Make Iterm default terminal
